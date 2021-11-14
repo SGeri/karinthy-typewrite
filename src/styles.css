@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "CourierNew";
+  src: url("./fonts/courier_new.ttf");
+}
+
+.h1-title {
+  margin: 10px;
+}
+
+.input-text {
+  height: 800px;
+  font-family: "CourierNew";
+}
+
+.button-submit {
+  margin: 10px;
+}
+
+.alert {
+  margin: 15px;
+}

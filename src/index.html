@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gépírás teszt</title>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <h1 class="h1-title">Gépírás teszt</h1>
+    <div class="container-fluid">
+      <form class="input-group">
+        <div class="input-group mb-3">
+          <input
+            id="name"
+            type="text"
+            class="form-control input-name"
+            placeholder="Név"
+            aria-label="Név"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <div class="input-group">
+          <textarea
+            id="text"
+            class="form-control input-text"
+            aria-label="Szöveg"
+            placeholder="Szöveg"
+          ></textarea>
+        </div>
+      </form>
+
+      <div id="alert-holder">
+      </div>
+
+      <button id="button-submit" type="button" class="btn btn-secondary btn-lg button-submit">
+        Beküldés
+      </button>
+      </form>
+    </div>
+  </body>
+</html>
